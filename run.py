@@ -10,6 +10,8 @@ from JointNetDrift import Joint_Prediction
 from JointNetDriftVer import Joint_PredictionVer
 def main():
     # TODO: 1. Based on model confidence, output the data that needs to be labeled.
+    if not os.path.exists(args.DATA_FILE + 'mark'):
+        os.mkdir(args.DATA_FILE + 'mark')
     train_x, train_y, train_locy, test_x, test_y, test_locy = init_supple_dataset(args)
     supple_data = [train_x, train_y, train_locy, test_x, test_y, test_locy]
 
@@ -22,7 +24,7 @@ def main():
     # Filter strategy
     mark_num = 1
     strategy = LeastConfidence(train_x, None, None, original_train_data, net, args)
-    strategy.predict(BASE_PATH)  # Type-DD accuracy
+    # strategy.predict(BASE_PATH)  # Type-LDA accuracy
     need_mark_data = strategy.query(BASE_PATH)
     save_need_mark_data(args, mark_num, need_mark_data)
 

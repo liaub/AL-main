@@ -114,7 +114,7 @@ def generation_data(filename, stream):
         all_data.append(resultList)
 
     # Splitting into testing and training
-    Ratio = 0.2  #  The proportion of the training set
+    Ratio = args.Train_Ratio  #  The proportion of the training set
     all_data = np.array(all_data).squeeze()
     train = all_data[0:int(data_count * Ratio), :]
     test = all_data[int(data_count * Ratio):, :]

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f95e4e0b-7289-45a7-aa26-2f1c48fbbf8d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/JointNetDrift.py" beforeDir="false" afterPath="$PROJECT_DIR$/JointNetDrift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JointNetDriftVer.py" beforeDir="false" afterPath="$PROJECT_DIR$/JointNetDriftVer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/AGRa4.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/AGRa4.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/HYP0.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/HYP0.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/RBF0.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/RBF0.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/RTG0.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/RTG0.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/SEAa0.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/1_SyntData_SyntDrift/original_data/SEAa0.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/PokerHandBinary.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/PokerHandBinary.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/airline.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/airline.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/elecNorm.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/elecNorm.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/spam_corpus_x2_feature_selected.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/spam_corpus_x2_feature_selected.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/weather_NSE.arff" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/2_RealData_UnknDrift/original_data/weather_NSE.arff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototypical_batch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototypical_batch_sampler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategies/least_confidence.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategies/least_confidence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategies/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategies/strategy.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2iWgzpbL8zsFJHyG3V8HH7Ru9c5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/学术研究/概念漂移/Type-LDA/submit/AL-main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学术研究\概念漂移\Type-LDA\submit\AL-main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mark_data">
+    <configuration name="data_handler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AL-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mark_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AL-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mark_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AL-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mark_data" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.data_handler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95e4e0b-7289-45a7-aa26-2f1c48fbbf8d" name="Changes" comment="" />
+      <created>1719612011290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719612011290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_handler.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_handler.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

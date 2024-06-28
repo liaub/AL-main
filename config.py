@@ -8,12 +8,12 @@ args.add_argument('--centord-Vector-Length', type=int, default=30,
                   help='Setting centord Vector Dimensions')
 args.add_argument('--DATA-FILE', type=str, default='./datasets/1_SyntData_SyntDrift/pretrain_data/SEAa0/',
                   help='Select original_data set')
-args.add_argument('--Dataset', type=str, default="RBFi")
+args.add_argument('--Dataset', type=str, default="SEAa0")
 args.add_argument('--DRIFT-FILE', type=str, default='./datasets/drift-50-15-4800/',
                   help='Additional training original_data to solve the problem of less fine-tuning original_data')
 args.add_argument('--BASE-PATH', type=str, default='./models/drift-50-15',
                   help='Basic model')
-args.add_argument('--Train-Ratio', type=float, default=0.2,
+args.add_argument('--Train-Ratio', type=float, default=0.5,
                   help='Training set ratio')
 args.add_argument('--DATA-SAMPLE-NUM', type=int, default=4800,
                   help='Number of original_data sets sampled')
@@ -35,7 +35,7 @@ args.add_argument('--lr', type=float, default=0.01)
 args.add_argument('--lr-scheduler-gamma', type=float, default=0.9)
 args.add_argument('--lr-scheduler-step', type=int, default=30)
 args.add_argument('--alpha', type=float, default=0.7)
-args.add_argument('--query-num', type=int, default=3)
+args.add_argument('--query-num', type=int, default=5)
 
 
 
@@ -58,8 +58,6 @@ args.add_argument("--regularization", type=float, default=0.01,
                     help="regularization weight")
 args = args.parse_args()
 
-if not os.path.exists(args.DATA_FILE + 'mark'):
-    os.mkdir(args.DATA_FILE + 'mark')
 
 if not os.path.exists('./models/' + args.DATA_FILE.split('/')[-2]):
     os.mkdir('./models/' + args.DATA_FILE.split('/')[-2])
